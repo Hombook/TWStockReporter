@@ -7,7 +7,7 @@ Features:
     * https://goodinfo.tw/tw2/StockList.asp?RPT_TIME=&MARKET_CAT=智慧選股&INDUSTRY_CAT=外資連買+–+日%40%40外資連續買超%40%40外資連續買超+–+日
 * Filter out stocks that doesn't match the criteria:
     * 3 or more consecutive days with potisive total buying numbers from foreign investors.
-    * The consecutive days is configurable through config file.
+        * The consecutive days is configurable through config file.
 * Send the data as CSV to a given Discord channel.
     * By using a webhook.
     * Configurable through config file.
