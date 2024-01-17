@@ -40,5 +40,6 @@ $ ./install.sh
 # Uninstall
 
 ```bash
+$ chmod +x uninstall.sh
 $ ./uninstall.sh
 ```
