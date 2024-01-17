@@ -1,0 +1,4 @@
+{
+    "min_cont_buy_days": 3,
+    "discord_webhook_url": "YOUR_DISCORD_WEBHOOK_URL"
+}
