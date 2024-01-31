@@ -4,6 +4,7 @@
 SCRIPT_PATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 # Remove daily report cron jobs
+(crontab -l | grep -v "$SCRIPT_PATH/daily_3insti_report.py") | crontab -
 (crontab -l | grep -v "$SCRIPT_PATH/daily_stock_report.py") | crontab -
 
 echo "Uninstallation complete. Daily stock report script unscheduled."
